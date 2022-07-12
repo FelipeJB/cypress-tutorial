@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:3000/",
+  "screenshotOnRunFailure" : true,
+  "screnshotsFolder": "cypress/screenshots",
+  "trashAssetsBeforeRuns": true,
+  "reporter": "mochawesome",
+      "reporterOptions": {
+      		"reportDir": "cypress/report/mochawesome-report",
+            	"overwrite": true,
+            	"html": true,
+            	"json": false,
+            "timestamp": "mmddyyyy_HHMMss"
+     }
+
+}
